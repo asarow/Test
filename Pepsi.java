@@ -1,5 +1,7 @@
 public class Pepsi implements Soda {
     private final boolean containsSugar;
+
+    private Pepsi() {}
     
     private Pepsi(boolean containsSugar) {
 	this.containsSugar = containsSugar;
